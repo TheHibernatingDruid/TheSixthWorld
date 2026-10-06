@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<skills>
+		<skill>
+			<id>5d9c796d-2eff-4ad6-beb6-e2e309c237d9</id>
+			<name>Firearms</name>
+			<attribute>AGI</attribute>
+			<category>Combat Active</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>[Weapon Type]</spec>
+				<spec>[Firing Mode]</spec>
+			</specs>
+			<source>TSW</source>
+			<page>1</page>
+		</skill>
+		<skill>
+			<id>9eb154f1-8406-40ba-8710-5bd1ffde30eb</id>
+			<name>Monofilaments</name>
+			<attribute>AGI</attribute>
+			<category>Combat Active</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>Garrote</spec>
+				<spec>Whip</spec>
+				<spec>Yo-Yo</spec>
+			</specs>
+			<source>TSW</source>
+			<page>1</page>
+		</skill>
+		<skill>
+			<id>ec407933-9b75-43fc-9511-6b8d28246db5</id>
+			<name>Mechanic</name>
+			<attribute>LOG</attribute>
+			<category>Technical Active</category>
+			<default>False</default>
+			<skillgroup>Engineering</skillgroup>
+			<specs>
+				<spec>Aeronautics</spec>
+				<spec>Automotive</spec>
+				<spec>Industrial</spec>
+				<spec>Nautical</spec>
+			</specs>
+			<source>TSW</source>
+			<page>1</page>
+		</skill>
+	</skills>
+	<knowledgeskills>
+    <skill>
+      <id>fd45f7fc-1bb7-4101-b355-7d8e41a1caa3</id>
+      <name>Area Knowledge</name>
+      <attribute>INT</attribute>
+      <category>Street</category>
+      <default>False</default>
+      <skillgroup />
+      <specs>
+        <spec>Astral Space</spec>
+        <spec>City Streets</spec>
+        <spec>Local Grid</spec>
+      </specs>
+			<source>TSW</source>
+			<page>1</page>
+    </skill>
+    <skill>
+      <id>1b2e794b-c395-4346-9555-19bd582c7bb8</id>
+      <name>Seattle</name>
+      <attribute>INT</attribute>
+      <category>Location</category>
+      <default>False</default>
+      <skillgroup />
+      <specs>
+        <spec>Auburn</spec>
+        <spec>Bellevue</spec>
+        <spec>Council Island</spec>
+        <spec>Downtown</spec>
+        <spec>Everett</spec>
+        <spec>Fort Lewis</spec>
+        <spec>Puyallup</spec>
+        <spec>Redmond</spec>
+        <spec>Renton</spec>
+        <spec>Snohomish</spec>
+        <spec>Outremer</spec>
+        <spec>Salish-Shide</spec>
+        <spec>Tacoma</spec>
+      </specs>
+			<source>TSW</source>
+			<page>1</page>
+    </skill>
+	</knowledgeskills>
+</chummer>
